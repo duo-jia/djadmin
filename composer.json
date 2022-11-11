@@ -1,0 +1,35 @@
+{
+    "name": "duojia/djadmin",
+    "description": "a thinkphp6 admin",
+    "homepage": "https://github.com/duo-jia/djadmin",
+    "version": "1.0.1",
+    "type": "think-extend",
+    "authors": [
+        {
+            "name": "duojia",
+            "email": "lbjcms@qq.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "support": {
+        "issues": "https://github.com/duo-jia/djadmin/issues"
+    },
+    "require": {
+    	"php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\djadmin\\": "src/"
+        }
+    },
+    "extra": {
+        "think": {
+            "services": [
+                "think\\djadmin\\DjadminService"
+            ],
+            "config": {
+                "djadmin": "src/config/djadmin.php"
+            }
+        }
+    }
+}
