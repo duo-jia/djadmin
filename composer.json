@@ -2,7 +2,6 @@
     "name": "duojia/djadmin",
     "description": "a thinkphp6 admin",
     "homepage": "https://github.com/duo-jia/djadmin",
-    "version": "1.0.1",
     "type": "think-extend",
     "authors": [
         {
