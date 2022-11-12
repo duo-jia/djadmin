@@ -10,9 +10,8 @@ class DjadminService extends Service
 {
     public function boot()
     {
-
         $this->registerRoutes(function (Route $route) {
-            $route->get('djadmin/[:config]', "\\duojia\\djadmin\\Djadmin@index");
+            $route->get('djadmin', "\\duojia\\djadmin\\Dj@index");
         });
     }
 }

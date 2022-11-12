@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "think\\djadmin\\": "src/"
+            "duojia\\djadmin\\": "src/"
         }
     },
     "extra": {
         "think": {
             "services": [
-                "think\\djadmin\\DjadminService"
+                "duojia\\djadmin\\DjadminService"
             ],
             "config": {
                 "djadmin": "src/config/djadmin.php"
